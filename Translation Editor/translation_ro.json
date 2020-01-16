@@ -1,0 +1,236 @@
+{
+	"languageCode": "RO",
+	"languageLocalName": "Română",
+	"cyrillicGlyphs": false,
+	"messages": {
+		"SettingsCalibrationDone": "Calibrare efectuată!",
+		"SettingsCalibrationWarning": "Asigurați-vă că vârful este la temperatura camerei înainte de a continua!",
+		"SettingsResetWarning": "Sigur resetați setările la valorile din fabrică?",
+		"UVLOWarningString": "DC scăzut",
+		"UndervoltageString": "Tensiune joasă",
+		"InputVoltageString": "Intrare V: ",
+		"WarningTipTempString": "Temp. vârf: ",
+		"BadTipString": "VÂRF DEFECT",
+		"SleepingSimpleString": "Zzzz",
+		"SleepingAdvancedString": "Repaus...",
+		"WarningSimpleString": "FIERBINTE!",
+		"WarningAdvancedString": "!!! VÂRF FIERBINTE !!!",
+		"SleepingTipAdvancedString": "Vârf: ",
+		"IdleTipString": "Vârf: ",
+		"IdleSetString": "Set: ",
+		"TipDisconnectedString": "VÂRF DECONECTAT",
+		"SolderingAdvancedPowerPrompt": "Putere: ",
+		"OffString": "Oprit",
+		"ResetOKMessage": "Reset OK",
+		"YourGainMessage": "Cîștig:",
+		"SettingsResetMessage": "Setările au fost resetate!"
+	},
+	"characters": {
+		"SettingRightChar": "D",
+		"SettingLeftChar": "S",
+		"SettingAutoChar": "A",
+		"SettingFastChar": "R",
+		"SettingSlowChar": "L"
+	},
+	"menuDouble": true,
+	"menuGroups": {
+		"SolderingMenu": {
+			"text2": [
+				"Setări",
+				"de lipire"
+			],
+			"desc": "Setări de lipire (impuls, pornire automată...)"
+		},
+		"PowerSavingMenu": {
+			"text2": [
+				"Modul de",
+				"repaus"
+			],
+			"desc": "Setați modul de repaus, oprire automată..."
+		},
+		"UIMenu": {
+			"text2": [
+				"Interfaţă",
+				"utilizator"
+			],
+			"desc": "Setări interfață utilizator"
+		},
+		"AdvancedMenu": {
+			"text2": [
+				"Opţiuni",
+				"avansate"
+			],
+			"desc": "Optiuni avansate (ecrane detaliate, calibrari, setari din fabrica...)."
+		}
+	},
+	"menuOptions": {
+		"PowerSource": {
+			"text": "PWRSC",
+			"text2": [
+				"Sursă de",
+				"energie"
+			],
+			"desc": "Sursă de energie. Setează tensiunea limită. <DC 10V> <S 3.3V pe celulă>"
+		},
+		"SleepTemperature": {
+			"text": "STMP",
+			"text2": [
+				"Temperatura",
+				"în repaus."
+			],
+			"desc": "Temperatura în modul repaus <C>"
+		},
+		"SleepTimeout": {
+			"text": "STME",
+			"text2": [
+				"Timpul",
+				"de repaus"
+			],
+			"desc": "Timpul de repaus <Minute/Secunde>"
+		},
+		"ShutdownTimeout": {
+			"text": "SHTME",
+			"text2": [
+				"Timpul",
+				"de închidere"
+			],
+			"desc": "Timpul până la închiderea automată <Minute>"
+		},
+		"MotionSensitivity": {
+			"text": "MSENSE",
+			"text2": [
+				"Sensibilitate",
+				"mișcare"
+			],
+			"desc": "Sensibilitate la detectarea mișcării‎ <0=oprit 1.sensibilitate mică ... 9.sensibilitate mare>"
+		},
+		"TemperatureUnit": {
+			"text": "TMPUNT",
+			"text2": [
+				"Unitate de",
+				"temperatură"
+			],
+			"desc": "Unitate de măsură a temperaturii‎ <C=Celsius, F=Fahrenheit>"
+		},
+		"AdvancedIdle": {
+			"text": "ADVIDL",
+			"text2": [
+				"Detalii",
+				"ecran inactiv"
+			],
+			"desc": "Afișați informații detaliate într-un font mai mic pe ecran în modul așteptare."
+		},
+		"DisplayRotation": {
+			"text": "DSPROT",
+			"text2": [
+				"Orientare",
+				"ecran"
+			],
+			"desc": "Orientare ecran‎ <A=Auto S=Stângaci, D=Dreptaci>"
+		},
+		"BoostEnabled": {
+			"text": "BOOST",
+			"text2": [
+				"Activați",
+				"modul Turbo"
+			],
+			"desc": "Utilizați butonul frontal pentru modul \"Turbo\" temperatură de până la 450C atunci când lipiți"
+		},
+		"BoostTemperature": {
+			"text": "BTMP",
+			"text2": [
+				"Setare",
+				"temperatura Turbo"
+			],
+			"desc": "Temperatura pentru modul \"Turbo\""
+		},
+		"AutoStart": {
+			"text": "ASTART",
+			"text2": [
+				"Pornire",
+				"automată"
+			],
+			"desc": "Modul de pornire automată a letconului. L=Lipire, R=Repaus, O=Oprit"
+		},
+		"CooldownBlink": {
+			"text": "CLBLNK",
+			"text2": [
+				"Clipește cât",
+				"e fierbinte"
+			],
+			"desc": "După deconectarea de la modul de funcționare, indicatorul de temperatură luminează intermitent cât vârful letconului este fierbinte‎"
+		},
+		"TemperatureCalibration": {
+			"text": "TMP CAL?",
+			"text2": [
+				"Calibrare",
+				"temperatură?"
+			],
+			"desc": "Calibrare măsurare temperatură."
+		},
+		"SettingsReset": {
+			"text": "RESET?",
+			"text2": [
+				"Resetare la",
+				"setări fabrică?"
+			],
+			"desc": "Resetare la setările din fabrică"
+		},
+		"VoltageCalibration": {
+			"text": "CAL VIN?",
+			"text2": [
+				"Calibrare",
+				"tensiune de intrare?"
+			],
+			"desc": "Calibrarea tensiunii de intrare (VIN). Utilizați butoanele pentru ajustare, țineți apăsat pentru a ieși."
+		},
+		"AdvancedSoldering": {
+			"text": "ADVSLD",
+			"text2": [
+				"Detalii pe",
+				"ecran când lipiți"
+			],
+			"desc": "Afișare informații detaliate în timp ce lipiți"
+		},
+		"ScrollingSpeed": {
+			"text": "DESCSP",
+			"text2": [
+				"Viteză",
+				"derulare text"
+			],
+			"desc": "Viteza de derulare text <L=lent, R=rapid>"
+		},
+		"TipModel": {
+			"text": "TIPMO",
+			"text2": [
+				"Model",
+				"vârf"
+			],
+			"desc": "Selectarea modelului de vârf"
+		},
+		"SimpleCalibrationMode": {
+			"text": "SMPCAL",
+			"text2": [
+				"Calibrare",
+				"simplă"
+			],
+			"desc": "Calibrare simplă folosind apă caldă"
+		},
+		"AdvancedCalibrationMode": {
+			"text": "ADVCAL",
+			"text2": [
+				"Calibrare",
+				"avansată"
+			],
+			"desc": "Calibrare avansată folosind termocupla pe vârf"
+		},
+		"PowerInput": {
+			"text": "PWRW",
+			"text2": [
+				"Putere",
+				"watt"
+			],
+			"desc": "Puterea de alimentare a adaptorului utilizat"
+		}
+	}
+}
