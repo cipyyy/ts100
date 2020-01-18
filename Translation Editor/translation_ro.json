@@ -6,24 +6,24 @@
 		"SettingsCalibrationDone": "Calibrare efectuată!",
 		"SettingsCalibrationWarning": "Asigurați-vă că vârful este la temperatura camerei înainte de a continua!",
 		"SettingsResetWarning": "Sigur resetați setările la valorile din fabrică?",
-		"UVLOWarningString": "DC scăzut",
+		"UVLOWarningString": "DCscăzut",
 		"UndervoltageString": "Tensiune joasă",
 		"InputVoltageString": "Intrare V: ",
 		"WarningTipTempString": "Temp. vârf: ",
-		"BadTipString": "VÂRF DEFECT",
+		"BadTipString": "VÂRF DEF",
 		"SleepingSimpleString": "Zzzz",
 		"SleepingAdvancedString": "Repaus...",
-		"WarningSimpleString": "FIERBINTE!",
-		"WarningAdvancedString": "!!! VÂRF FIERBINTE !!!",
+		"WarningSimpleString": "ĂRȘ!",
+		"WarningAdvancedString": "VÂRF FIERBINTE!!",
 		"SleepingTipAdvancedString": "Vârf: ",
-		"IdleTipString": "Vârf: ",
+		"IdleTipString": "Vârf:",
 		"IdleSetString": "Set: ",
 		"TipDisconnectedString": "VÂRF DECONECTAT",
 		"SolderingAdvancedPowerPrompt": "Putere: ",
-		"OffString": "Oprit",
+		"OffString": "Opr",
 		"ResetOKMessage": "Reset OK",
 		"YourGainMessage": "Cîștig:",
-		"SettingsResetMessage": "Setările au fost resetate!"
+		"SettingsResetMessage": "Setări resetate!"
 	},
 	"characters": {
 		"SettingRightChar": "D",
@@ -75,8 +75,8 @@
 		"SleepTemperature": {
 			"text": "STMP",
 			"text2": [
-				"Temperatura",
-				"în repaus."
+				"Temperat.",
+				"în repaus"
 			],
 			"desc": "Temperatura în modul repaus <C>"
 		},
@@ -91,8 +91,8 @@
 		"ShutdownTimeout": {
 			"text": "SHTME",
 			"text2": [
-				"Timpul",
-				"de închidere"
+				"Timpul de",
+				"închidere"
 			],
 			"desc": "Timpul până la închiderea automată <Minute>"
 		},
@@ -139,8 +139,8 @@
 		"BoostTemperature": {
 			"text": "BTMP",
 			"text2": [
-				"Setare",
-				"temperatura Turbo"
+				"Temperat.",
+				"Turbo"
 			],
 			"desc": "Temperatura pentru modul \"Turbo\""
 		},
@@ -180,7 +180,7 @@
 			"text": "CAL VIN?",
 			"text2": [
 				"Calibrare",
-				"tensiune de intrare?"
+				"tensiune (VIN)?"
 			],
 			"desc": "Calibrarea tensiunii de intrare (VIN). Utilizați butoanele pentru ajustare, țineți apăsat pentru a ieși."
 		},
@@ -188,17 +188,17 @@
 			"text": "ADVSLD",
 			"text2": [
 				"Detalii pe",
-				"ecran când lipiți"
+				"ecran letcon"
 			],
 			"desc": "Afișare informații detaliate în timp ce lipiți"
 		},
 		"ScrollingSpeed": {
 			"text": "DESCSP",
 			"text2": [
-				"Viteză",
-				"derulare text"
+				"Viteză de",
+				"rulare text"
 			],
-			"desc": "Viteza de derulare text <L=lent, R=rapid>"
+			"desc": "Viteza derulare text <L=lent, R=rapid>"
 		},
 		"TipModel": {
 			"text": "TIPMO",
